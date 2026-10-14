@@ -1,8 +1,8 @@
-Memory Matrix
+###Memory Matrix###
 
 Ein kleines Gedächtnisspiel, bei dem man sich die Reihenfolge der leuchtenden Felder merken muss.
 
-Live Demo: "Memory Matrix spielen" (https://laurita003.github.io/Memory-Matrix/)
+Live Demo: https://laurita003.github.io/Memory-Matrix/
 
 So funktioniert's
 

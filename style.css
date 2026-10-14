@@ -1,0 +1,140 @@
+/* Allgemeine Einstellungen */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 24px;
+  font-family: Arial, sans-serif;
+  color: #f4f4ff;
+  background: linear-gradient(135deg, #101225, #252b50);
+}
+
+/* Hauptbereich */
+.game {
+  width: 100%;
+  max-width: 460px;
+  padding: 32px 24px;
+  text-align: center;
+  background: rgba(18, 22, 48, 0.95);
+  border: 1px solid #424a7a;
+  border-radius: 24px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 12px;
+  font-size: 2.4rem;
+  color: #a9b4ff;
+}
+
+.description {
+  color: #c5c9e8;
+  line-height: 1.6;
+}
+
+/* Spielstatistik */
+.stats {
+  display: flex;
+  justify-content: space-around;
+  gap: 16px;
+  margin: 24px 0;
+  padding: 14px;
+  background: #252b50;
+  border-radius: 12px;
+}
+
+.stats div {
+  font-size: 0.95rem;
+}
+
+.stats span {
+  display: block;
+  margin-top: 6px;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #8fffe0;
+}
+
+/* Spielfeld */
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 12px;
+  margin: 24px auto;
+}
+
+.tile {
+  aspect-ratio: 1;
+  border: 2px solid #505a91;
+  border-radius: 14px;
+  background: #30385f;
+  cursor: pointer;
+  transition: background 0.2s, transform 0.2s, box-shadow 0.2s;
+}
+
+.tile:hover {
+  transform: translateY(-2px);
+  border-color: #9daaff;
+}
+
+.tile.active {
+  background: #8b7bff;
+  border-color: #c5bcff;
+  box-shadow: 0 0 24px rgba(139, 123, 255, 0.8);
+}
+
+.tile:disabled {
+  cursor: default;
+}
+
+/* Nachricht und Startknopf */
+#message {
+  min-height: 24px;
+  color: #d5d9ff;
+}
+
+.start-button {
+  width: 100%;
+  padding: 14px 20px;
+  border: none;
+  border-radius: 12px;
+  color: #17152e;
+  background: #8fffe0;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.2s, background 0.2s;
+}
+
+.start-button:hover {
+  transform: translateY(-2px);
+  background: #b5ffed;
+}
+
+.start-button:focus-visible,
+.tile:focus-visible {
+  outline: 3px solid #ffffff;
+  outline-offset: 3px;
+}
+
+/* Anpassung für kleine Bildschirme */
+@media (max-width: 400px) {
+  .game {
+    padding: 24px 16px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .board {
+    gap: 8px;
+  }
+}

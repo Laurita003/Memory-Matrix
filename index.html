@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Memory Matrix</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="game">
+    <h1>Memory Matrix</h1>
+
+    <p class="description">
+      Merke dir die Reihenfolge der leuchtenden Felder!
+    </p>
+
+    <section class="stats" aria-label="Spielstatistik">
+      <div>Runde: <span id="level">0</span></div>
+      <div>Rekord: <span id="best">0</span></div>
+    </section>
+
+    <div
+      id="board"
+      class="board"
+      aria-label="Spielfeld"
+    ></div>
+
+    <p id="message" aria-live="polite">
+      Bist du bereit?
+    </p>
+
+    <button id="start" class="start-button" type="button">
+      Spiel starten
+    </button>
+  </main>
+</body>
+</html>
+

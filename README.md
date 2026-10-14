@@ -1,4 +1,4 @@
-###Memory Matrix###
+###Memory Matrix
 
 Ein kleines Gedächtnisspiel, bei dem man sich die Reihenfolge der leuchtenden Felder merken muss.
 

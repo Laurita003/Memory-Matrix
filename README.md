@@ -1,43 +1,43 @@
-# Memory Matrix
+# Lumina Code KI
 
-Ein kleines Gedächtnisspiel, bei dem man sich die Reihenfolge der leuchtenden Felder merken muss.
+Ein intelligenter, KI-gestützter Code-Mentor für tiefe Einblicke, interaktives Lernen und echten Lerneffekt, entwickelt mit Python, Streamlit und der Groq API.
 
-Live Demo: https://laurita003.github.io/Memory-Matrix/
+Live Demo: https://lumina-code-ki-blzuvybrgvuappdnuwgypna.streamlit.app
 
 ## So funktioniert's
 
-- Klicke auf „Spiel starten“.
-- Merke dir die leuchtenden Felder.
-- Klicke sie in der richtigen Reihenfolge an.
-- Mit jeder Runde wird die Reihenfolge länger.
-- Versuche, deinen Rekord zu verbessern!
+* Trage deinen Groq API-Key sicher in der Seitenleiste ein.
+* Füge deinen Quellcode oder deine Datenbankabfrage im linken Bereich ein.
+* Wähle zwischen verschiedenen Lernmodi und Schwierigkeitsgraden.
+* Analysiere den Code und nutze den interaktiven Chat für Rückfragen.
+* Schließe die Session mit einer persönlichen Lernreflexion ab.
 
 ## Features
 
-- 9 interaktive Spielfelder
-- Zufällig generierte Reihenfolgen
-- Steigender Schwierigkeitsgrad
-- Anzeige der aktuellen Runde und des Rekords
-- Speicherung des Rekords im Browser
-- Responsives Design
+* Multi-Sprachen-Unterstützung (DE, EN, FR, IT, ZH, ES).
+* Dynamischer Day/Night-Modus mit dauerhaft heller Seitenleiste.
+* Chat-Historie mit automatischer Speicherung, Lade- und Löschfunktion.
+* Intelligentes Lernreflexions-Modul.
+* Sichere Handhabung von API-Keys ohne Hardcodierung.
 
 ## Verwendete Technologien
 
-- HTML5
-- CSS3
-- JavaScript
+* Python
+* Streamlit
+* Groq API (Qwen Model)
+* CSS3 (Glassmorphism & Theme Styling)
 
 ## Über das Projekt
 
-Memory Matrix ist ein kleines Webprojekt, bei dem ich meine Kenntnisse in HTML, CSS und JavaScript praktisch anwenden möchte. Ziel war es, ein einfaches Gedächtnisspiel zu entwickeln, das direkt im Browser gespielt werden kann.
+Lumina Code KI ist ein Webprojekt von Laurita Elsa Kenfack, das entwickelt wurde, um Programmierer und Lernende dabei zu unterstützen, Code nicht nur zu korrigieren, sondern ihn wirklich zu verstehen.
 
 ## Lokal starten
 
 1. Repository herunterladen oder klonen.
 2. Den Projektordner in Visual Studio Code öffnen.
-3. "index.html" im Browser öffnen.
-
-Alternativ kann das Spiel über GitHub Pages gespielt werden.
+3. Benötigte Pakete installieren (`pip install -r requirements.txt`).
+4. Die App lokal starten (`streamlit run app.py`).
+Alternativ kann die App direkt über den Live-Demo-Link aufgerufen werden.
 
 ## Autorin
 
